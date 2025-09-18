@@ -1,0 +1,7 @@
+setup.py
+skill_weather_owm.egg-info/PKG-INFO
+skill_weather_owm.egg-info/SOURCES.txt
+skill_weather_owm.egg-info/dependency_links.txt
+skill_weather_owm.egg-info/entry_points.txt
+skill_weather_owm.egg-info/requires.txt
+skill_weather_owm.egg-info/top_level.txt

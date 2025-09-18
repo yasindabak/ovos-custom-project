@@ -1,0 +1,24 @@
+{
+  "location": {
+    "city": {
+      "code": "Kahramanmara\u015f",
+      "name": "Kahramanmara\u015f",
+      "state": {
+        "code": "46",
+        "name": "Kahramanmara\u015f",
+        "country": {
+          "code": "TR",
+          "name": "T\u00fcrkiye"
+        }
+      }
+    },
+    "coordinate": {
+      "latitude": 37.672,
+      "longitude": 36.7918
+    },
+    "timezone": {
+      "code": "Europe/Istanbul",
+      "name": "Europe/Istanbul"
+    }
+  }
+}
