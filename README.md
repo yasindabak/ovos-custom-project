@@ -33,6 +33,8 @@ cd ovos-custom-project
 
 ### 2️⃣ Container'ları Başlat
 
+Docker Desktop’ı aç ve çalıştığından emin ol.
+
 ```bash
 docker compose up -d
 ```
