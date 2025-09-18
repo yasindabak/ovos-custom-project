@@ -1,12 +1,12 @@
 import os
 import sys
 
-# Python path’e klasörü ekle
+# Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from __init__ import OWMWeatherSkill
 
-# OVOS GUI ve speak’i terminal için override et
+
 class TestWeatherSkill(OWMWeatherSkill):
     def __init__(self):
         super().__init__()
