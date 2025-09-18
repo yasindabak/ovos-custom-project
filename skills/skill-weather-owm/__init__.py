@@ -1,7 +1,7 @@
 import requests
 from ovos_workshop.skills import OVOSSkill
 from ovos_workshop.decorators import intent_handler
-from datetime import datetime  # <<< bunu ekle
+from datetime import datetime 
 
 class OWMWeatherSkill(OVOSSkill):
     def __init__(self):
@@ -41,7 +41,7 @@ class OWMWeatherSkill(OVOSSkill):
             self.gui.show_text(result)
         self.log.info(result)
 
-    # <<< Saat intent fonksiyonu eklendi
+    # <<< Saat intent 
     @intent_handler("Time.intent")
     def handle_time_intent(self, message):
         now = datetime.now()
